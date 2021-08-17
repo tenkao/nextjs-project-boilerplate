@@ -1,7 +1,8 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { render } from '@testing-library/react'
 import React from 'react'
-import theme from 'src/theme'
+// import theme from 'src/theme'
+// 存在せずエラーになるのでとりあえずコメントアウト
 
 const AllTheProviders = ({ children }: { children: JSX.Element }) => {
   return <ChakraProvider>{children}</ChakraProvider>
