@@ -9,7 +9,9 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write \"./src/**/*.{ts,tsx}\"",
-    "test": "jest"
+    "test": "jest",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "dependencies": {
     "@chakra-ui/icons": "1.0.15",
