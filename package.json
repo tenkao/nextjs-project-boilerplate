@@ -13,7 +13,8 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "hygen": "hygen"
   },
   "dependencies": {
     "@chakra-ui/icons": "1.0.15",
